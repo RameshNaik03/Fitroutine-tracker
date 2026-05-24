@@ -1,16 +1,73 @@
-# React + Vite
+# FitRoutine Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FitRoutine Tracker is a modern full-stack fitness tracking web application built using React, Tailwind CSS, Node.js, Express.js, and MongoDB.
 
-Currently, two official plugins are available:
+The application helps users manage workout routines, track health progress, monitor daily habits, and maintain fitness discipline through a clean and responsive dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# Project Goals
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is being developed step by step while learning:
 
-## Expanding the ESLint configuration
+- Full Stack Development
+- React Component Architecture
+- Backend API Development
+- Authentication Systems
+- MongoDB Database Integration
+- Responsive UI Design
+- Real-world Git & GitHub Workflow
+- Scalable Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# Tech Stack
+
+## Frontend
+- React
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Axios
+
+## Backend
+- Node.js
+- Express.js
+
+## Database
+- MongoDB
+
+## Authentication
+- JWT Authentication
+- bcrypt Password Hashing
+
+---
+
+# Features
+
+- User Registration & Login
+- Dashboard UI
+- Daily Workout Tracking
+- Water Intake Tracker
+- Sleep Tracking
+- Calories Burned Tracking
+- BMI Calculator
+- Weekly Progress Charts
+- Responsive Design
+- Dark/Light Mode
+- Profile Management
+- Workout Categories
+- Motivation Quotes
+- AI Workout Suggestions (Planned)
+
+---
+
+# Project Structure
+
+```bash
+fitroutine-tracker/
+│
+├── client/              # Frontend React Application
+├── server/              # Backend Express Application
+├── README.md
+└── .gitignore 
