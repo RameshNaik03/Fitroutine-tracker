@@ -63,11 +63,76 @@ This project is being developed step by step while learning:
 ---
 
 # Project Structure
-
-```bash
 fitroutine-tracker/
 │
-├── client/              # Frontend React Application
-├── server/              # Backend Express Application
+├── client/                     # React Frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── api/
+│   │   │   └── axios.js
+│   │   │
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   │   ├── WorkoutCard.jsx
+│   │   │   ├── ProgressChart.jsx
+│   │   │   ├── WaterTracker.jsx
+│   │   │   ├── SleepTracker.jsx
+│   │   │   ├── BMICalculator.jsx
+│   │   │   └── QuoteCard.jsx
+│   │   │
+│   │   ├── context/
+│   │   │   ├── AuthContext.jsx
+│   │   │   └── ThemeContext.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Profile.jsx
+│   │   │   └── Workouts.jsx
+│   │   │
+│   │   ├── hooks/
+│   │   │   └── useAuth.js
+│   │   │
+│   │   ├── utils/
+│   │   │   └── calculateBMI.js
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   │
+│   ├── package.json
+│   └── tailwind.config.js
+│
+├── server/                     # Express Backend
+│   ├── config/
+│   │   └── db.js
+│   │
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── workoutController.js
+│   │   └── userController.js
+│   │
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   └── errorMiddleware.js
+│   │
+│   ├── models/
+│   │   ├── User.js
+│   │   └── Workout.js
+│   │
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── workoutRoutes.js
+│   │   └── userRoutes.js
+│   │
+│   ├── utils/
+│   │   └── generateToken.js
+│   │
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+│
 ├── README.md
-└── .gitignore
+└── .gitignore\
